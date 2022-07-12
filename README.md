@@ -2,7 +2,7 @@
 
 ## 安装依赖
 ```
-cd kg_web
+cd fruit_sell_box
 npm install
 ```
 
