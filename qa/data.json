@@ -1,0 +1,68 @@
+{
+    "nodes": [
+            {
+                "id": "node1", 
+                "x": 100,
+                "y": 200,
+                "class":"c1",
+                "label": "起始点"
+            },
+            {
+                "id": "node2",
+                "x": 300,
+                "y": 200,
+                "class":"c2",
+                "label": "目标点"
+            },
+            {
+                "id": "node3",
+                "x": 300,
+                "y": 100,
+                "class":"c2",
+                "label": "目标点1"
+            },
+            {
+                "id": "node4",
+                "x": 300,
+                "y": 300,
+                "class":"c3",
+                "label": "目标点2"
+            },
+            {
+                "id": "node5",
+                "x": 500,
+                "y": 200,
+                "class":"c3",
+                "label": "目标点3"
+            },
+            {
+                "id": "node5",
+                "x": 700,
+                "y": 100,
+                "class":"c3",
+                "label": "目标点3"
+            }
+        ],
+    "edges": [
+        {
+            "source": "node1", 
+            "target": "node3", 
+            "label": "我是连线" 
+        },
+        {
+            "source": "node1", 
+            "target": "node4", 
+            "label": "我是连线" 
+        },
+        {
+            "source": "node1", 
+            "target": "node2", 
+            "label": "我是连线" 
+        },
+        {
+            "source": "node2", 
+            "target": "node5", 
+            "label": "relation" 
+        }
+    ]
+}
